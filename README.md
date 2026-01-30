@@ -257,11 +257,6 @@ This project demonstrates proficiency in:
 
 ---
 
-
-
-
----
-
 ## 👥 Team
 
 <ul>
@@ -280,9 +275,9 @@ This project is created for educational purposes as part of a university course 
 
 ## 📧 Contact
 
-**Ayesha rauf** - [@NIMRAH-S](https://github.com/NIMRAH-S)
+**Ayesha rauf**: [https://github.com/ayesha189]
 
-**Project Link**: [https://github.com/NIMRAH-S/Candy-Crush-Console-Game](https://github.com/NIMRAH-S/Candy-Crush-Console-Game)
+**Project Link**: [https://github.com/ayesha189/CandyCrush-ConsoleGame]
 
 ---
 
@@ -300,8 +295,3 @@ This project is created for educational purposes as part of a university course 
 If you found this project helpful or interesting, please consider giving it a ⭐!
 
 ---
-
-<div align="center">
-  <p>Made with ❤️ and C++</p>
-  <p>© 2024 Candy Crush Console Game Team</p>
-</div>
