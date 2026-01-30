@@ -260,8 +260,8 @@ This project demonstrates proficiency in:
 ## 👥 Team
 
 <ul>
-  Ayesha Rauf (23f-0807 )
-  Aqsa Ishaq  (23f-0839 )
+  <li>Ayesha Rauf (23f-0807 )</li>
+  <li>Aqsa Ishaq  (23f-0839 )</li>
 </ul>
 
 
