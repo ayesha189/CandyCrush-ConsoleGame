@@ -1,6 +1,6 @@
 # 🍬 Candy Crush Console Game
 
-<div align="center">
+<div align="left">
   <h3>A Classic Match-3 Puzzle Game Built in C++</h3>
   
   ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -264,28 +264,11 @@ This project demonstrates proficiency in:
 
 ## 👥 Team
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="" width="100px;" alt="Ayesha Rauf"/>
-      <br />
-      <sub><b>Nimrah</b></sub>
-      <br />
-      <sub>23F-0807</sub>
-      <br />
-      <sub>Core Logic & UI</sub>
-    </td>
-    <td align="center">
-      <img src="" width="100px;" alt="Aqsa Ishaq"/>
-      <br />
-      <sub><b>Aqsa Ishaq</b></sub>
-      <br />
-      <sub>23F-0839</sub>
-      <br />
-      <sub>Testing & Debugging</sub>
-    </td>
-  </tr>
-</table>
+<ul>
+  Ayesha Rauf (23f-0807 )
+  Aqsa Ishaq  (23f-0839 )
+</ul>
+
 
 ---
 
