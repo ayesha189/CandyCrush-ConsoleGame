@@ -1,38 +1,15 @@
-# CandyCrush-ConsoleGame
-A console-based implementation of the classic Candy Crush game, developed in C++ to demonstrate game development fundamentals and advanced programming concepts.
+# 🍬 Candy Crush Console Game
 
-<div align="left">
-  
+<div align="center">
   <h3>A Classic Match-3 Puzzle Game Built in C++</h3>
-  <br>
-
-   <p>A console-based implementation of the popular Candy Crush game featuring colorful graphics, timer-based gameplay, and score tracking — built as part of a C++ learning and game development project.</p>
-
-   <br>
   
   ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
   ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
   ![Console](https://img.shields.io/badge/Console-Game-brightgreen?style=for-the-badge)
   
- 
+  <p>A console-based implementation of the popular Candy Crush game featuring colorful graphics, timer-based gameplay, and score tracking — built as part of a C++ learning and game development project.</p>
 </div>
 
----
-
-## 📸 Game Preview
-
-```
-🍬 🍭 🍫 🍰 🧁 🍩 🎂 🍮
-🍰 🍬 🍩 🍭 🍫 🧁 🍮 🎂
-🍭 🍫 🍬 🍰 🍩 🎂 🧁 🍮
-🧁 🍩 🍰 🍬 🍭 🍮 🍫 🎂
-🍫 🎂 🍭 🧁 🍬 🍰 🍩 🍮
-🍩 🍮 🧁 🍫 🎂 🍭 🍬 🍰
-🎂 🍰 🍮 🍩 🧁 🍬 🍭 🍫
-🍮 🧁 🎂 🍮 🍰 🍫 🍩 🍭
-```
-
----
 
 ## ✨ Features
 
@@ -69,35 +46,93 @@ A console-based implementation of the classic Candy Crush game, developed in C++
 ## 🚀 Getting Started
 
 ### Prerequisites
-- C++ compiler (GCC, MinGW, or MSVC)
-- Windows OS (currently uses Windows-specific libraries)
-- IDE/Text Editor (VS Code, Dev C++, Code::Blocks, Visual Studio)
+- **Windows OS** (uses Windows-specific libraries: `<conio.h>`, `<windows.h>`)
+- **Visual Studio** or **VS Code** with C++ compiler
 
-### Installation
+---
 
-1. **Clone the repository**
+### Option 1: Visual Studio (Recommended for Beginners)
+
+1. **Download and Install Visual Studio**
+   - Download [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) (free)
+   - During installation, select "Desktop development with C++"
+
+2. **Clone or Download the Repository**
    ```bash
-   git clone https://github.com/NIMRAH-S/Candy-Crush-Console-Game.git
+   git clone https://github.com/ayesha189/CandyCrush-ConsoleGame
+   ```
+   Or download as ZIP and extract
+
+3. **Open in Visual Studio**
+   - Launch Visual Studio
+   - Click **"Create a new project"**
+   - Search for **"Empty Project"** (C++)
+   - Name your project and click **"Create"**
+
+4. **Add the Game File**
+   - In Solution Explorer, right-click on **"Source Files"**
+   - Select **Add → Existing Item**
+   - Browse and select `candy crush.cpp`
+
+5. **Build and Run**
+   - Press **Ctrl + F5** (or click "Local Windows Debugger")
+   - The game will launch in a console window
+   - Make sure `candycrush.txt` is in the same directory as your executable
+
+---
+
+### Option 2: VS Code (For Advanced Users)
+
+1. **Install Required Tools**
+   - Download and install [VS Code](https://code.visualstudio.com/)
+   - Install [MinGW-w64](https://www.mingw-w64.org/) or [MSYS2](https://www.msys2.org/) for GCC compiler
+   - Add MinGW `bin` folder to your system PATH
+
+2. **Install VS Code Extensions**
+   - Open VS Code
+   - Install **C/C++** extension by Microsoft
+   - Install **Code Runner** extension (optional, for quick runs)
+
+3. **Clone the Repository**
+   ```bash
+   git clone https://github.com/ayesha189/CandyCrush-ConsoleGame
    cd Candy-Crush-Console-Game
    ```
 
-2. **Compile the game**
-   ```bash
-   g++ "candy crush.cpp" -o candy
-   ```
+4. **Open Folder in VS Code**
+   - Open VS Code
+   - File → Open Folder → Select the project folder
 
-3. **Run the executable**
-   ```bash
-   ./candy
-   # or on Windows
-   candy.exe
-   ```
+5. **Compile and Run**
+   
+   **Method A: Using Terminal**
+   - Open integrated terminal (Ctrl + `)
+   - Compile:
+     ```bash
+     g++ "candy crush.cpp" -o candy
+     ```
+   - Run:
+     ```bash
+     candy.exe
+     ```
 
-### Alternative Setup (Visual Studio)
-1. Open Visual Studio
-2. Create a new C++ Console Application project
-3. Copy the `candy crush.cpp` content
-4. Build and run (Ctrl + F5)
+   **Method B: Using Code Runner**
+   - Open `candy crush.cpp`
+   - Right-click in editor → **"Run Code"**
+   - Or press **Ctrl + Alt + N**
+
+6. **Create tasks.json (Optional - For Build Task)**
+   - Press **Ctrl + Shift + P**
+   - Type **"Tasks: Configure Default Build Task"**
+   - Select **"C/C++: g++.exe build active file"**
+   - Press **Ctrl + Shift + B** to build anytime
+
+---
+
+### 📝 Important Notes
+- Ensure `candycrush.txt` is in the same directory as your executable
+- The game requires a Windows environment due to platform-specific libraries
+- For the best experience, run in a full-screen console window
 
 ---
 
@@ -212,6 +247,7 @@ This project demonstrates proficiency in:
 - [ ] **Save/Load game** - resume gameplay
 - [ ] **Combo multipliers** - consecutive match bonuses
 
+
 ### Technical Improvements
 - [ ] Refactor code into classes (Board, Game, UI, ScoreManager)
 - [ ] Add unit tests for core game logic
@@ -221,23 +257,8 @@ This project demonstrates proficiency in:
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! If you'd like to improve this project:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Ideas
-- Add new candy types or special effects
-- Implement cross-platform compatibility
-- Create different game modes (timed, moves-limited, endless)
-- Design better UI/graphics
-- Optimize game algorithms
-- Write comprehensive documentation
 
 ---
 
@@ -246,20 +267,20 @@ Contributions are welcome! If you'd like to improve this project:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/NIMRAH-S.png" width="100px;" alt="Nimrah"/>
+      <img src="" width="100px;" alt="Ayesha Rauf"/>
       <br />
       <sub><b>Nimrah</b></sub>
       <br />
-      <sub>23F-0734</sub>
+      <sub>23F-0807</sub>
       <br />
       <sub>Core Logic & UI</sub>
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/100" width="100px;" alt="Naeem"/>
+      <img src="" width="100px;" alt="Aqsa Ishaq"/>
       <br />
-      <sub><b>Naeem</b></sub>
+      <sub><b>Aqsa Ishaq</b></sub>
       <br />
-      <sub>23F-0690</sub>
+      <sub>23F-0839</sub>
       <br />
       <sub>Testing & Debugging</sub>
     </td>
@@ -276,7 +297,7 @@ This project is created for educational purposes as part of a university course 
 
 ## 📧 Contact
 
-**Nimrah** - [@NIMRAH-S](https://github.com/NIMRAH-S)
+**Ayesha rauf** - [@NIMRAH-S](https://github.com/NIMRAH-S)
 
 **Project Link**: [https://github.com/NIMRAH-S/Candy-Crush-Console-Game](https://github.com/NIMRAH-S/Candy-Crush-Console-Game)
 
